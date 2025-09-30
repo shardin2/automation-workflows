@@ -1,0 +1,16 @@
+{
+  "name": "n8n-playwright-fix",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Playwright automation to diagnose and apply basic fixes to an n8n workflow via the UI",
+  "license": "MIT",
+  "scripts": {
+    "fix": "node src/fix-workflow.js",
+    "hostinger:update": "node src/hostinger-update.js",
+    "playwright:install": "playwright install chromium"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "playwright": "^1.47.0"
+  }
+}
