@@ -28,3 +28,5 @@ To use Claude Code in this repository:
 1. Ensure `ANTHROPIC_API_KEY` is set in repository secrets
 2. Install the [Claude GitHub App](https://github.com/apps/claude)
 3. Comment `@claude` on any PR to interact
+## Test
+Testing Claude Code integration
